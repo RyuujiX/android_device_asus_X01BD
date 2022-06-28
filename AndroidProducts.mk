@@ -5,7 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_X01BD.mk
+    $(LOCAL_DIR)/nad_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_X01BD-userdebug
+    nad_X01BD-user \
+    nad_X01BD-userdebug \
+    nad_X01BD-eng
